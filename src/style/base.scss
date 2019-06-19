@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  font-family: "Product", sans-serif;
+}
+
+body {
+  font-family: "Product", sans-serif;
+  font-weight: 400;
+  background-color: #FFFFFF;
+}
+
+.container {
+  width: 1110px;
+  margin-right: auto;
+  margin-left: auto;
+}
+h1 {
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+h2 {
+  font-size: 26px;
+  color: #ffffff;
+}
+p{
+  white-space: normal;
+  word-break: break-word;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.content_inner {
+  margin: 0 auto;
+  width: 1110px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+

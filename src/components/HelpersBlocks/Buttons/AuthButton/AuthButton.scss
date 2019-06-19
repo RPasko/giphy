@@ -1,0 +1,76 @@
+.auth_btn_wrapper {
+  margin-right: 10px;
+  a {
+    text-decoration: none;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.auth_btn {
+  color: #FFFFFF;
+  font-size: 12px;
+  font-family: "Product", sans-serif;
+  height: 41px;
+  width: 190px;
+  border-radius: 3px;
+  background-color: #4359C6;
+  box-shadow: 0 2px 6px 0 #000000;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  -webkit-transition: all ease .3s;
+  -moz-transition: all ease .3s;
+  -ms-transition: all ease .3s;
+  -o-transition: all ease .3s;
+  transition: all ease .3s;
+  cursor: pointer;
+  overflow: hidden;
+  &:hover {
+    background-color: #4359C6;
+    box-shadow: 0 2px 6px 0 #000000;
+  }
+  &.auth_btn_header {
+    height: 35px;
+    width: 95px;
+    color: #4359C6;
+    background-color: transparent;
+    border: 1px solid #4359C6;
+    box-shadow: none;
+    &.auth_btn_header_clean {
+      color: #ffffff;
+      border: 1px solid transparent;
+    }
+  }
+  &.auth_btn_inversion {
+    background-color: transparent;
+    color: #4359C6;;
+    border: 1px solid #4359C6;
+    box-shadow: 0 2px 6px 0 #000000;
+    &:hover{
+      background-color: transparent;
+      border-color: #4359C6;
+      color: #4359C6;
+    }
+  }
+  &:hover {
+    animation: all 0.3s linear;
+    box-shadow: 0 2px 6px -2px #000000;
+  }
+  &:disabled {
+    cursor: default;
+    background-color: rgba(67,89, 198, 0.5);
+    color: rgba(255, 255, 255, 0.8);
+    box-shadow: none;
+
+  }
+}
+
+
+
+
+

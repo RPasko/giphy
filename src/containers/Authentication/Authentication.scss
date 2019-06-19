@@ -1,0 +1,125 @@
+.authentication_container {
+  position: relative;
+  background-color: #FFFFFF;
+  .container {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    >div:nth-child(2){
+      width: 50%;
+      margin-left: 50%;
+      &.long-block {
+        width: 80%;
+        margin-left: 20%;
+      }
+    }
+  }
+}
+.logo{
+  img {
+    height: 40px;
+    width: 143px;
+  }
+}
+
+.form_wrapper {
+  z-index: 999;
+  width: auto;
+  margin-top: 50px;
+  text-align: center;
+  form, .like_form{
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    text-align: left;
+    box-sizing: border-box;
+    width: 380px;
+  }
+  form > label:last-of-type, .like_form > label:last-of-type {
+    margin-bottom: 0;
+  }
+  &.form_wrapper_wide {
+    width: 100%;
+    padding-left: 55px;
+    padding-right: 55px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .auth_header {
+      width: 100%;
+    }
+  }
+}
+
+.auth_btn_wrapper{
+  padding-top: 50px;
+  .auth_btn{
+    margin: 0;
+  }
+}
+
+.auth_header {
+  font-family: "Product Medium", sans-serif;
+  line-height: 1;
+  color: #000;
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: 400;
+  width: 100%;
+  display: flex;
+  flex-flow: column ;
+  align-items: flex-start;
+  font-size: 40px;
+  h1 {
+    b {
+      font-weight: normal;
+    }
+  }
+  &.auth_header_out {
+    width: 400px;
+  }
+  &.auth_header_text {
+    margin-bottom: 20px;
+  }
+}
+
+.dialog_component span.auth_header_description {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.auth_subheader {
+  font-size: 14px;
+  color: #ffffff;
+  text-align: left;
+  margin-bottom: 48px;
+}
+
+.activate-form-wrapper{
+  .auth_subheader{
+    padding-top: 50px;
+    margin: 0;
+  }
+}
+
+.auth_error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  &.error_after_button {
+    margin-top: 0;
+  }
+  span {
+    color: #A1AEB7;
+    line-height: 14px;
+    font-size: 12px;
+  }
+  img {
+    margin-right: 7px;
+  }
+}
+
